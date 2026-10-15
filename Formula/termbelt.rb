@@ -10,23 +10,23 @@ class Termbelt < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/rahatsagor/termbelt/releases/download/v1.1.1/termbelt_1.1.1_darwin_arm64.tar.gz"
-      sha256 "94ce1ad7c92c513343df31b2395e1664aad9bacb0d70e3bb35bdea8b35b5c683"
+      url "https://github.com/rahatsagor/termbelt/releases/download/v1.2.0/termbelt_1.2.0_darwin_arm64.tar.gz"
+      sha256 "aed6ea5929edb8824d2e29165d4c702e3a19c14cdc8cd16e3ebd26308e730eb4"
     end
     on_intel do
-      url "https://github.com/rahatsagor/termbelt/releases/download/v1.1.1/termbelt_1.1.1_darwin_amd64.tar.gz"
-      sha256 "806067c0492eb42c4040698d7299578e74380933fdd422266ef4f99358784f22"
+      url "https://github.com/rahatsagor/termbelt/releases/download/v1.2.0/termbelt_1.2.0_darwin_amd64.tar.gz"
+      sha256 "98d2112736ae64b621309cd40c1dbf6a54e14635f07c7a4329445c51f7bfda18"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/rahatsagor/termbelt/releases/download/v1.1.1/termbelt_1.1.1_linux_arm64.tar.gz"
-      sha256 "5eb955cd9ebbca2195a60d84d36ee264ae4a840f45de97248204991eeea52d40"
+      url "https://github.com/rahatsagor/termbelt/releases/download/v1.2.0/termbelt_1.2.0_linux_arm64.tar.gz"
+      sha256 "5b598eef8e193d8853880e2c3df07a2331a6100d5569248bc338e99d07db540c"
     end
     on_intel do
-      url "https://github.com/rahatsagor/termbelt/releases/download/v1.1.1/termbelt_1.1.1_linux_amd64.tar.gz"
-      sha256 "17421dbbdd861f7a105fe1f722edb6aa92d16c481396f82f045bbd742bbfa8d6"
+      url "https://github.com/rahatsagor/termbelt/releases/download/v1.2.0/termbelt_1.2.0_linux_amd64.tar.gz"
+      sha256 "48fda1bce1ae68995d13312f7245ddb2fbf2cc6a61b71d452ffb9811312e9440"
     end
   end
 
