@@ -1,13 +1,25 @@
 # Rahat Sagor's Homebrew tap
 
-Homebrew casks for apps by [Rahat Sagor](https://github.com/rahatsagor).
-Each app has its own cask, download source, and version.
+Homebrew formulae and casks for apps by [Rahat Sagor](https://github.com/rahatsagor).
+Each app has its own formula or cask, download source, and version.
 
 ## Available apps
 
-| App | What it does | Requirements |
-| --- | --- | --- |
-| [CmdPalm](https://cmdpalm.app) | Use your phone as a trackpad, keyboard, and button deck for your Mac | Apple Silicon, macOS 15 or later |
+| App | What it does | Install | Requirements |
+| --- | --- | --- | --- |
+| [Termbelt](https://termbelt.rsapplication.com) | 21 developer tools in one terminal: speed, DNS, TLS, WHOIS, domains, ports, JSON, JWT and more | `brew install rahatsagor/tap/termbelt` | macOS or Linux, x64 or ARM64 |
+| [CmdPalm](https://cmdpalm.app) | Use your phone as a trackpad, keyboard, and button deck for your Mac | `brew install --cask rahatsagor/tap/cmdpalm` | Apple Silicon, macOS 15 or later |
+
+## Install Termbelt
+
+```sh
+brew install rahatsagor/tap/termbelt
+```
+
+[Source code](https://github.com/rahatsagor/termbelt) · [Downloads and release notes](https://github.com/rahatsagor/termbelt/releases)
+
+The formula installs the prebuilt, checksum-verified binary from the GitHub
+release, plus bash, zsh and fish completions. Update with `brew upgrade termbelt`.
 
 ## Install CmdPalm
 
@@ -23,7 +35,6 @@ Settings when CmdPalm asks for it.
 
 ## Releases
 
-CmdPalm's release workflow updates `Casks/cmdpalm.rb` automatically.
-Additional apps can be added to this tap with their own casks and release
-workflows. Each workflow updates its app's cask, and each app is released
-independently. Available apps are listed above as they are published.
+Each app's release workflow updates its own file automatically: Termbelt's
+updates `Formula/termbelt.rb` and CmdPalm's updates `Casks/cmdpalm.rb`. Apps are
+released independently, and new apps are listed above as they are published.
