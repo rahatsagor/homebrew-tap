@@ -1,6 +1,6 @@
 cask "cmdpalm" do
-  version "0.4.0"
-  sha256 "d186ea3033d92ca11deefc57f2a7c78f3cfb481716b27e34d106ac1ffb3f0b52"
+  version "0.5.0"
+  sha256 "7b9eafb6bf851ddcd68b98514956b5c8402d4851d925f2cfe0029bfec4246ffe"
 
   url "https://github.com/rahatsagor/CmdPalm/releases/download/v#{version}/CmdPalm-#{version}.zip"
   name "CmdPalm"
