@@ -5,7 +5,7 @@ cask "tovri" do
   url "https://github.com/rahatsagor/Tovri/releases/download/v#{version}/Tovri-#{version}.zip"
   name "Tovri"
   desc "Fast, lightweight native code and text editor"
-  homepage "https://github.com/rahatsagor/Tovri"
+  homepage "https://tovri.rsapplication.com"
 
   livecheck do
     url :url
