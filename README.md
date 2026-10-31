@@ -9,7 +9,7 @@ Each app has its own formula or cask, download source, and version.
 | --- | --- | --- | --- |
 | [CmdPalm](https://cmdpalm.app) | Use your phone as a trackpad, keyboard, and button deck for your Mac | `brew install --cask rahatsagor/tap/cmdpalm` | Apple Silicon, macOS 15 or later |
 | [Termbelt](https://termbelt.rsapplication.com) | 21 developer tools in one terminal: speed, DNS, TLS, WHOIS, domains, ports, JSON, JWT and more | `brew install rahatsagor/tap/termbelt` | macOS or Linux, x64 or ARM64 |
-| [Tovri](https://github.com/rahatsagor/Tovri) | A fast, lightweight native code and text editor for reading code and quick edits | `brew install --cask rahatsagor/tap/tovri` | Apple Silicon, macOS 14 or later |
+| [Tovri](https://tovri.rsapplication.com) | A fast, lightweight native code and text editor for reading code and quick edits | `brew install --cask rahatsagor/tap/tovri` | Apple Silicon, macOS 14 or later |
 
 ## Install CmdPalm
 
@@ -40,7 +40,7 @@ release, plus bash, zsh and fish completions. Update with `brew upgrade termbelt
 brew install --cask rahatsagor/tap/tovri
 ```
 
-[Source code](https://github.com/rahatsagor/Tovri) · [Downloads and release notes](https://github.com/rahatsagor/Tovri/releases)
+[Website](https://tovri.rsapplication.com) · [Source code](https://github.com/rahatsagor/Tovri) · [Downloads and release notes](https://github.com/rahatsagor/Tovri/releases)
 
 Tovri is self-signed and is not notarized by Apple. Its cask removes quarantine
 from the installed Tovri app bundle. To open files from Terminal with `tovri`,
