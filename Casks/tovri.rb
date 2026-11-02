@@ -1,6 +1,6 @@
 cask "tovri" do
-  version "0.3.0"
-  sha256 "730683e17d9f3f21738b5a3ce213a4af3bf9b2af936eb7ba858dcdc7bf494120"
+  version "0.4.0"
+  sha256 "896d3352023e3549cf4bf8061fa7704ab8e9c472abe5121a7a6259c94b7f1d13"
 
   url "https://github.com/rahatsagor/Tovri/releases/download/v#{version}/Tovri-#{version}.zip"
   name "Tovri"
